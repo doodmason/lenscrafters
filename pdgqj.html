@@ -9,12 +9,28 @@
     <script src="js/vendor/modernizr.js"></script>
 
     <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#myTextBox").focus();
+        });
+    </script>
   </head>
-  <body>
+  <body id="linearBg2">
     
 <br>
 <br>
 <br>
+
+    <div class="row">
+      <div class="large-3 columns ">
+        <img src="img/eyesnpies_logo.png"/>
+      </div>
+
+      <div class="large-3 columns ">
+        <img src="img/lenscrafters.png"/>
+      </div>
+    </div>
 
 
     <div class="row">
@@ -29,18 +45,23 @@
         <p>Please enter the following letters</p>
       </div>
 
+      <br>
+      <br>
+
       <div class="large-1 large-centered columns">
         <h1 class="test3">G D J Q P</h1>
       </div>
     </div>
+
+      <br>
+      <br>
 
 <div class="large-6 large-centered columns">
     <!-- start GateKeeper code -->
     <form name="keeper" action="javascript:location.href =
     window.document.keeper.page.value + '.html'" style="margin:0;">
     <div style="display:inline;">
-    <input type="text" name="page">
-    <input type="submit" value="Go">
+    <input type="password" name="page" id="myTextBox">
     <noscript><div style="display:inline;color:#ff0000;
     background-color:#ffff66; font:normal 11px tahoma,sans-serif;">
     <br>Javascript is required to access this<br>area. Yours seems
