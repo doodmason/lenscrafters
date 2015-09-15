@@ -7,3 +7,21 @@
 .test4 {font-family: 'Slabo 27px', serif;
         font-size: 5px;}
 
+#linearBg2 {
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#FFDFA9));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #ffffff, #FFDFA9
+);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #ffffff, #FFDFA9
+);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #ffffff, #FFDFA9);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #ffffff, #FFDFA9);
+}
